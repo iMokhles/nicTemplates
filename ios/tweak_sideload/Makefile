@@ -9,6 +9,7 @@ TWEAK_NAME = @@PROJECTNAME@@
 @@PROJECTNAME@@_FILES = Tweak.xm
 @@PROJECTNAME@@_LOGOSFLAGS = -c generator=internal
 @@PROJECTNAME@@_INSTALL_PATH = @executable_path
+@@PROJECTNAME@@_USE_SUBSTRATE = false
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
